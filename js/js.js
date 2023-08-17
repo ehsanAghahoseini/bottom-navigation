@@ -2,7 +2,7 @@ const timeout = async (delay) => {
     return new Promise(res => setTimeout(res, delay));
 }
 
-let lastID = 0;
+let lastID = 2;
 
 const handelMove = async (index, newLeft, newRight) => {
     let swimmer = document.getElementById('swimmer')
